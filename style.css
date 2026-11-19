@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(178, 189, 189);
+}
+
+body {
+    background-color: rgb(199, 240, 231);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(9, 11, 32);
+}
+
+div.mama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.projects {
+    border-style: groove;
+    border-radius: 20px;
+    border-color:  rgb(178, 189, 189);
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+div.explanation {
+    font-size: 0.2em;
+}
+
+div.container {
+    position: relative;
+}
+
+div.image {
+    position: absolute;
+}
+
+div.meee {
+    font-size: 20em;
+    color: red;
+}
+
+footer {
+    background-color: rgb(178, 189, 189);
+}
